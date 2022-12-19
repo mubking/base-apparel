@@ -1,0 +1,76 @@
+.one h1{
+    font-size: 100px;
+    line-height: 80px;
+}
+.one span{
+    color: #C39597;
+}
+.one p{
+    font-size: 25px;
+    color: #C39597;
+}
+.one input{
+    width: 80%;
+    height: 10vh;
+    border-radius: 20px;
+    padding: 20px;
+    border-color: #C39597;
+}
+.five{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.email svg{
+    text-align: center;
+    background-color: #F7CBCC;
+    width: 10%;
+    cursor: pointer;
+    padding: 20px;
+    height: 10vh;
+    color: white;
+    /* position: fixed; */
+}
+.email svg:hover{
+    width: 20%;
+     border-radius: 10px; 
+    background-color: black;
+    color: white;
+}
+.one{
+    background-color: white;
+    height: 90vh;
+}
+.two img{
+height: 90vh;
+background-color: green;
+position: relative;
+right: 20px;
+width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .five{
+        /* background-color: red; */
+
+    }
+    .one{
+        background-color: white;
+        min-height: 100vh;
+        width: 100%;
+    }
+    .two img{
+        right: 10px;
+        width: 105%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+}
